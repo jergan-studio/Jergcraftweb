@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d20">
+  <meta name="description" content="Build your world with JergBuilder 1.0.1, from Jergan Studio.">
+  <title>JergBuilder — Build Your World</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="JergBuilder home"><span class="cube">▦</span><span>JergBuilder</span><small>1.0.1</small></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav id="siteNav" class="nav" aria-label="Main navigation">
+    <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#updates">Updates</a><a href="#community">Community</a><a class="nav-play" href="#download">↓ Download</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="sky" aria-hidden="true"><i class="cloud cloud-a"></i><i class="cloud cloud-b"></i><i class="cloud cloud-c"></i><div class="terrain"></div><div class="red-tower tower-a"></div><div class="red-tower tower-b"><span></span></div></div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow"><b></b> JERGBUILDER VERSION 1.0.1</p>
+      <h1>BUILD YOUR<br><span>WORLD.</span></h1>
+      <p class="hero-copy">Explore. Create. Build without limits.</p>
+      <div class="hero-actions"><a class="button green" href="#download">▶ &nbsp; DOWNLOAD JERGBUILDER</a><a class="button glass" href="#about">EXPLORE THE GAME &nbsp; ↘</a></div>
+      <p class="hero-note">Your imagination is the blueprint.</p>
+    </div>
+    <a class="scroll-cue" href="#about">SCROLL TO EXPLORE ↓</a>
+  </section>
+  <section class="features section-wrap" id="about">
+    <div class="section-heading"><p class="eyebrow">MAKE IT YOURS</p><h2>YOUR WORLD. <span>YOUR RULES.</span></h2><p>A world of blocks, possibilities, and room to create.</p></div>
+    <div class="feature-grid">
+      <article class="feature-card"><div class="feature-art art-build"><i class="little-tower"></i></div><div class="feature-text"><span class="feature-icon">▦</span><h3>Build Anything</h3><p>Turn a simple idea into a structure of your own. Your imagination sets the limit.</p></div></article>
+      <article class="feature-card"><div class="feature-art art-explore"><i class="hill h1"></i><i class="hill h2"></i><i class="sun"></i></div><div class="feature-text"><span class="feature-icon">◇</span><h3>Explore Worlds</h3><p>Look around, find new places, and see what you can make of the landscape.</p></div></article>
+      <article class="feature-card"><div class="feature-art art-create"><i class="create-tower"></i><i class="create-cross"></i></div><div class="feature-text"><span class="feature-icon">✦</span><h3>Create Your Way</h3><p>Experiment with blocks and shapes to make your world feel like yours.</p></div></article>
+    </div>
+  </section>
+  <section class="download-section" id="download"><div class="download-panel"><div><p class="eyebrow">AVAILABLE NOW · VERSION 1.0.1</p><h2>Ready to start building?</h2><p class="muted">Get JergBuilder for your PC and start creating your world.</p><p class="hint">ⓘ The download button needs your game installer or ZIP link to be connected.</p></div><div class="download-action"><a class="button green large" href="#download" id="downloadButton">↓ &nbsp; DOWNLOAD FOR PC</a><span class="download-version">JergBuilder 1.0.1 · PC</span></div></div></section>
+  <section class="updates section-wrap" id="updates"><div class="updates-title"><div><p class="eyebrow">WHAT'S NEW</p><h2>Game updates</h2></div><span class="version-pill">LATEST · 1.0.1</span></div><article class="update-card"><div class="update-number">1.0.1</div><div><h3>JergBuilder 1.0.1</h3><p>The current version of JergBuilder. Check back here for release notes and future updates.</p></div><span class="update-tag">CURRENT VERSION</span></article></section>
+  <section class="community" id="community"><div class="community-inner"><p class="eyebrow">MADE FOR CREATORS</p><h2>Every world starts<br>with <span>one block.</span></h2><p class="muted">Build something you can call your own.</p><a class="button outline" href="#download">GET JERGBUILDER ↗</a></div><div class="block-decoration" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></section>
+</main>
+<footer class="footer"><a class="footer-brand" href="#home">JERGBUILDER <span>1.0.1</span></a><p>Created by <strong>Jergan Studio</strong></p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+<div class="toast" id="downloadToast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
