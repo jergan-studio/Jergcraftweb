@@ -22,7 +22,7 @@ siteNav.querySelectorAll("a").forEach((link) => {
 let toastTimeout;
 downloadButton.addEventListener("click", (event) => {
   // Add your direct installer or ZIP URL here when the game file is ready.
-  const DOWNLOAD_URL = "";
+  const DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=1_D6IM1aSyR9VH_XieStxe8UXEcJNipsb";
   if (DOWNLOAD_URL) {
     event.preventDefault();
     window.location.href = DOWNLOAD_URL;
